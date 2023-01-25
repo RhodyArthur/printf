@@ -3,12 +3,12 @@
 #include <stdarg.h>
 
 /**
- * op_SString - prints a string to output
+ * op_special - prints a string to output
  * @form: list to retrieve string to print
  * Return: number of characters
  */
 
-int op_SString(va_list form)
+int op_special(va_list form)
 {
 	int count = 0, i = 0, divide, module;
 	char ascii;
