@@ -25,7 +25,7 @@ int _printf(const char *format, ...)
 		{"u", op_unsigned_decimal},
 		{"x", op_hex},
 		{"X", op_HEX},
-		{"S", op_SString},
+		{"S", op_special},
 		{"p", op_address},
 	};
 
